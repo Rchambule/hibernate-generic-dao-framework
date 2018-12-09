@@ -133,7 +133,7 @@ public class BaseDAOTest extends BaseTest {
 			// see in _exists(Object entity) in HibernateBaseDAO
 			SessionImplementor openSession = (SessionImplementor) sessionFactory.openSession();
 			
-			Address proxy = (Address) JavassistLazyInitializer.getProxy(
+			Address proxy = (Address) null;/*JavassistLazyInitializer.getProxy(
 					Address.class.getName(),
 					Address.class,
 					new Class[] { HibernateProxy.class },
@@ -142,7 +142,7 @@ public class BaseDAOTest extends BaseTest {
 					new AnyType(StandardBasicTypes.LONG, StandardBasicTypes.SERIALIZABLE),
 					id,
 					openSession
-			);
+			);*/
 
 
 			// If this is not working properly, this will throw an error

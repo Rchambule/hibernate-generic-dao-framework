@@ -28,7 +28,7 @@
 			<!-- MySQL  -->
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.22</version>
+			<version>5.1.47</version>
 		</dependency>
 		<dependency>
 			<!-- H2 Database  -->
@@ -64,8 +64,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-entitymanager</artifactId>
-			<version>4.2.0.CR1</version>
+			<artifactId>hibernate-core</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
